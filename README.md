@@ -32,3 +32,9 @@ Please feel free to use a different markup language if you do not plan to run
 Made with my mentor at [Bloc](http://bloc.io).
 
 <a href="http://testapp03.herokuapp.com/">testapp03</a>
+
+Setup:
+
+Make sure to find inputs at config/application.yml
+
+template at config/application.example.yml
