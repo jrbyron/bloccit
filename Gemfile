@@ -62,3 +62,6 @@ gem 'figaro'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# makes it easier to authorize different users for different tasks in app
+gem 'pundit'
