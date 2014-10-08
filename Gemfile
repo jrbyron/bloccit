@@ -65,3 +65,6 @@ gem 'figaro'
 
 # makes it easier to authorize different users for different tasks in app
 gem 'pundit'
+
+#Implements Markdown formatting for text
+ gem 'redcarpet'
