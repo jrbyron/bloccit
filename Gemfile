@@ -67,4 +67,16 @@ gem 'figaro'
 gem 'pundit'
 
 #Implements Markdown formatting for text
- gem 'redcarpet'
+gem 'redcarpet'
+
+#let's you upload files from Ruby apps
+gem 'carrierwave'
+
+#let's you resize images
+gem 'mini_magick'
+
+#supports uploading images to Amazon S3 service
+gem 'fog'
+
+#grants pagination ability tp index
+gem 'will_paginate', '~> 3.0.5'
