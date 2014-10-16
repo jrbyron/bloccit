@@ -67,6 +67,7 @@ gem 'figaro'
 gem 'pundit'
 
 #Implements Markdown formatting for text
+<<<<<<< HEAD
 gem 'redcarpet'
 
 #let's you upload files from Ruby apps
