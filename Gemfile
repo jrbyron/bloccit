@@ -68,3 +68,12 @@ gem 'pundit'
 
 #Implements Markdown formatting for text
  gem 'redcarpet'
+
+#image uploading software
+gem 'carrierwave'
+
+#image resizer
+gem 'mini_magick'
+
+#cloud services library (for amazon storage)
+gem 'fog'
