@@ -6,9 +6,6 @@ Bloccit::Application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
-  # Override Action Mailer's 'silent errors' in development
-  config.action_mailer.raise_delivery_errors = true
-
   # Do not eager load code on boot.
   config.eager_load = false
 
@@ -30,10 +27,8 @@ Bloccit::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  # Raises error for missing translations
-  # config.action_view.raise_on_missing_translations = true
-
-   config.action_mailer.default_url_options = { host: 'localhost:3000' }
-   config.action_mailer.delivery_method = :smtp
-   config.action_mailer.perform_deliveries = true
+  config.action_mailer.default_url_options = { host: 'localhost:3000' }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
 end
