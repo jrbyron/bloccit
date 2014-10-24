@@ -1,8 +1,6 @@
-## Bloccit Example
+Bloccit
 
-Each commit tracks a commit in the Bloccit tutorial on [Bloc](https://www.bloc.io).
+by Student
 
-Necessary environment variables listed in `config/application.example.yml`.
-
-[View live version](http://bloccit-example.herokuapp.com)
+[View live version](http://testapp03.herokuapp.com)
 
