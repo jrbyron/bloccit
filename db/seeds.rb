@@ -31,8 +31,8 @@ end
 topics = Topic.all
 
 # Create Posts
-250.times do
-  post = Post.create!(
+50.times do
+  post = Post.create(
     user:   users.sample,
     topic:  topics.sample,
     title:  Faker::Lorem.sentence,
@@ -40,17 +40,17 @@ topics = Topic.all
   )
 
   # set the created_at to a time within the past year
-  post.update_attributes!(created_at: rand(10.minutes .. 1.year).ago)
-  post.create_vote
+  post.update_attribute(:created_at, rand(10.minutes .. 1.year).ago)
   post.update_rank
+  post.create_vote
 end
 posts = Post.all
 
 # Create Comments
-500.times do
+100.times do
   Comment.create(
-    user: users.sample,   # we have not yet associated Users with Comments
     post: posts.sample,
+    user: users.sample,
     body: Faker::Lorem.paragraph
   )
 end
